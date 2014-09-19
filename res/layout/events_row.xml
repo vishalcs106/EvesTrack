@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E6E6"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:orientation="horizontal" >
+    
+    <ImageView
+        android:id="@+id/eventThumbnail"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:paddingLeft="7dp"
+        android:layout_weight="2"
+        android:layout_gravity="center_vertical"/>
+    
+    <LinearLayout
+        android:layout_width="0dp"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="7"
+    	android:orientation="vertical">
+       <TextView
+        android:id="@+id/eventNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="7dp"
+        android:textSize="26sp"
+        android:typeface="serif"
+        android:singleLine="false" 
+        android:ellipsize="end" 
+        android:lines="1"
+        android:textColor="#000000"/>
+       
+       
+    	<TextView
+        android:id="@+id/eventPlaceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:typeface="serif"
+        android:singleLine="false" 
+        android:paddingLeft="7dp"
+        android:ellipsize="end" 
+        android:lines="1"
+        android:textColor="#000000"/>
+      
+      
+        <TextView
+        android:id="@+id/eventTypeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:typeface="serif"
+        android:textColor="#000000" />
+       
+    </LinearLayout>
+    
+    <ImageView
+        android:id="@+id/goImageView"
+        android:layout_width="0dp"
+        android:paddingRight="7dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/go" />
+
+</LinearLayout>
