@@ -916,7 +916,10 @@ containing a value of this type.
         public static final int get_started_new=0x7f020072;
         public static final int go=0x7f020073;
         public static final int ic_launcher=0x7f020074;
-        public static final int logo=0x7f020075;
+        public static final int list_background_off=0x7f020075;
+        public static final int list_background_on=0x7f020076;
+        public static final int listview_selector=0x7f020077;
+        public static final int logo=0x7f020078;
     }
     public static final class id {
         public static final int ExploreMoretextView=0x7f040038;

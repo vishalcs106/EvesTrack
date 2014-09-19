@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">TrackIT</string>
+    <string name="app_name">EvesTrack</string>
     <string name="event_name_label">Name: </string>
     <string name="event_place_label">Place: </string>
     <string name="event_type_label">Type: </string>

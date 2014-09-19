@@ -246,7 +246,10 @@ int drawable bookmarks 0x7f020071
 int drawable get_started_new 0x7f020072
 int drawable go 0x7f020073
 int drawable ic_launcher 0x7f020074
-int drawable logo 0x7f020075
+int drawable list_background_off 0x7f020075
+int drawable list_background_on 0x7f020076
+int drawable listview_selector 0x7f020077
+int drawable logo 0x7f020078
 int id ExploreMoretextView 0x7f040038
 int id abs__action_bar 0x7f040020
 int id abs__action_bar_container 0x7f04001f
